@@ -9,7 +9,7 @@
 	},
 	"main": "lib/multiSemanticRelease.js",
 	"bin": {
-		"multi-semantic-release": "./bin/cli.js"
+		"multi-semantic-release-helmfile": "./bin/cli.js"
 	},
 	"files": [
 		"README.md",
