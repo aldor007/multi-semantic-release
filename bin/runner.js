@@ -19,7 +19,7 @@ module.exports = (flags) => {
 		console.log(`flags: ${JSON.stringify(flags, null, 2)}`);
 
 		// Get list of package.json paths according to workspaces.
-		const paths = getPackagePaths(cwd, flags.ignorePackages);
+		const paths = getPackagePaths(cwd, flags.ignorePackage, "Chart.yaml");
 		console.log("package paths", paths);
 
 		// Do multirelease (log out any errors).
