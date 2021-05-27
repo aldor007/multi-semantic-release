@@ -1,5 +1,5 @@
 {
-	"name": "multi-semantic-release",
+	"name": "multi-semantic-release-helmfile",
 	"author": "Dave Houlbrooke <dave@shax.com>",
 	"version": "0.0.0-semantically-released",
 	"license": "0BSD",
